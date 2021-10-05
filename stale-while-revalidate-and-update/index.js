@@ -1,5 +1,5 @@
 const CACHE_VERSION = 1;
-const CASH_NAME = `swr-the-update-${CACHE_VERSION}`;
+const CASH_NAME = `swr-and-update-${CACHE_VERSION}`;
 
 if ("serviceWorker" in navigator) {
   const notice = document.getElementById("update-notice");
