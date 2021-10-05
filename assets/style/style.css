@@ -10,6 +10,10 @@ p {
     color: #444;
 }
 
+img {
+    width: 400px;
+}
+
 ol {
     margin-top: 25px;
 }
@@ -20,4 +24,10 @@ ol > li {
 
 ol > li > a {
     color: green;
+}
+
+#update-notice {
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #eee;
 }
