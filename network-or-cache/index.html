@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Or Cache | service Worker Implementation</title>
+    <link rel="stylesheet" href="/assets/style/style.css" />
+</head>
+<body>
+    <div class="main-body">
+        <h1>Service Worker Implementation</h1>
+        <p>On this page, we will use a service worker to implement the "Network Or Cache" strategy.</p>
+        <p>
+            The image below fetches through the network with a 100ms timeout with a fallback to cache.
+            <br>
+            To see the difference, use connection throttling (slow 3g) in the DevTools network tab!
+        </p>
+        <img src="/assets/images/img-1.jpeg" alt="The sweet image">
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>
