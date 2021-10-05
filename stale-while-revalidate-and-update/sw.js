@@ -68,8 +68,6 @@ function refresh(response) {
                     eTag: response.headers?.get('ETag'),
                 }
 
-                console.log("posted");
-
                 client.postMessage(JSON.stringify(message));
             });
         });
