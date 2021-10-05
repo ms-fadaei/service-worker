@@ -9,3 +9,15 @@ h1 {
 p {
     color: #444;
 }
+
+ol {
+    margin-top: 25px;
+}
+
+ol > li {
+    margin-bottom: 10px;
+}
+
+ol > li > a {
+    color: green;
+}
