@@ -2,11 +2,11 @@ const NETWORK_TIMEOUT = 100;
 const CACHE_VERSION = 1;
 const CASH_NAME = `image-repo-${CACHE_VERSION}`;
 const IMAGE_REPO_LIST = [
-    "/assets/images/img-1.jpeg",
-    "/assets/images/img-2.jpeg",
-    "/assets/images/img-3.jpeg",
-    "/assets/images/img-4.jpeg",
-    "/assets/images/img-5.jpeg",
+    "../assets/images/img-1.jpeg",
+    "../assets/images/img-2.jpeg",
+    "../assets/images/img-3.jpeg",
+    "../assets/images/img-4.jpeg",
+    "../assets/images/img-5.jpeg",
 ];
 
 self.addEventListener("install", function (event) {

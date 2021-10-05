@@ -2,7 +2,7 @@ const NETWORK_TIMEOUT = 100;
 const CACHE_VERSION = 1;
 const CASH_NAME = `swr-${CACHE_VERSION}`;
 const IMAGE_REPO_LIST = [
-    "/assets/images/img-1.jpeg",
+    "../assets/images/img-1.jpeg",
 ];
 
 self.addEventListener("install", function (event) {
@@ -40,7 +40,7 @@ let i = 1;
 
 function stealWhileRevalidate(request) {
     if (request.url.includes("/assets/images/img-")) {
-        var url = `/assets/images/img-${i++ % 5 + 1}.jpeg`;
+        var url = `../assets/images/img-${i++ % 5 + 1}.jpeg`;
     } else {
         return Promise.resolve();
     }
