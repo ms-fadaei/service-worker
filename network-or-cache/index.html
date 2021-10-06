@@ -9,14 +9,17 @@
 </head>
 <body>
     <div class="main-body">
-        <h1>Service Worker Implementation</h1>
-        <p>On this page, I will use a service worker to implement the "Network Or Cache" strategy.</p>
+        <a href="../">« ‌back</a>
+        <h1>Network Or Cache</h1>
+        <p>I use the service worker to implement the "Network Or Cache" strategy on this page.</p>
         <p>
-            The image below fetches through the network with a 100ms timeout with a fallback to cache.
+            The image below fetches through the network. The request will be canceled and the cached image will be used if the network request takes longer than 100ms.
             <br>
-            To see the difference, use connection throttling (slow 3g) in the DevTools network tab!
+            For comparison, use connection throttling (slow 3g) in the DevTools network tab!
         </p>
-        <img src="../assets/images/img-1.jpeg" alt="The sweet image">
+        <p>
+            <img src="../assets/images/img-1.jpeg" alt="The sweet image">
+        </p>
     </div>
 
     <script src="./index.js"></script>

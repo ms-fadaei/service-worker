@@ -6,28 +6,45 @@ h1 {
     color: orange;
 }
 
+a {
+    color: red;
+    text-decoration: none;
+}
+
 p {
     color: #444;
 }
 
 img {
-    width: 400px;
+    width: 360px;
+    border-radius: 15px;
+}
+
+ul {
+    margin-top: 25px;
+}
+
+ul > li {
+    color: green;
 }
 
 ol {
-    margin-top: 25px;
+    margin-top: 15px;
 }
 
 ol > li {
     margin-bottom: 10px;
+    color: blue;
 }
 
 ol > li > a {
-    color: green;
+    color: blue;
 }
 
-#update-notice {
+#update-notice > p {
     border: 1px solid #ddd;
     padding: 15px;
     background-color: #eee;
+    display: inline-block;
+    border-radius: 5px;
 }

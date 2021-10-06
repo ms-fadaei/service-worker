@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Network Or Cache | service Worker Implementation</title>
+    <title>Stale-While-Revalidate | service Worker Implementation</title>
     <link rel="stylesheet" href="../assets/style/style.css" />
 </head>
 <body>
     <div class="main-body">
-        <h1>Service Worker Implementation</h1>
-        <p>On this page, I will use a service worker to implement the "Stale While Revalidate" strategy.</p>
+        <a href="../">« ‌back</a>
+        <h1>Stale-While-Revalidate</h1>
+        <p>I use the service worker to implement the "Stale-While-Revalidate" strategy on this page.</p>
         <p>
-            The image below loads from the cache then revalidated for the next use.
+            First of all, the image below loads from the cache then be revalidated for the next use.
             <br>
-            To see the difference, keep refreshing the page!
+            To see the effect, keep refreshing the page after the service worker activation!
         </p>
-        <img src="../assets/images/img-1.jpeg" alt="The sweet image">
+        <p>
+            <img src="../assets/images/img-1.jpeg" alt="The sweet image">
+        </p>
     </div>
 
     <script src="./index.js"></script>
