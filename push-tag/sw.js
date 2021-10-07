@@ -6,8 +6,6 @@ let i = 1;
 self.addEventListener("push", function(event) {
     const data = event.data?.text() || "no-data";
 
-    console.log()
-
     event.waitUntil(
         self.registration.showNotification("New Push Event", {
             lang: "EN",
